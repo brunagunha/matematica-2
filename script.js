@@ -50,8 +50,8 @@ function atualizarCronometro(){
    }
 
    function comecaCronometro(){
-    atualizarCronometro();
-    setInterval(atualizarCronometro,1000);
+    atualizaCronometro();
+    setInterval(atualizaCronometro,1000);
    }
 
    comecaCronometro();
